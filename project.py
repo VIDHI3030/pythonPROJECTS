@@ -1,15 +1,15 @@
 import random
-n = random.randint(1, 99)
+n = random.randint(1, 10)
 guess = int(raw_input("Enter an integer from 1 to 10: "))
-while n != "guess":
+while n != guess:
     print
     if guess < n:
-        print "guess is low"
+        print guess is low
         guess = int(raw_input("Enter an integer from 1 to 10: "))
     elif guess > n:
-        print "guess is high"
+        print guess is high
         guess = int(raw_input("Enter an integer from 1 to 10: "))
     else:
-        print "you guessed it!"
+        print you guessed it!
         break
     print
