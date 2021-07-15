@@ -30,7 +30,7 @@ class TransferData:
 def main():
     while(True):
         if((time.time()-startTime) >= 3600):
-            accesstoken='sl.A0lcuVPvjRAFpMmCQQUG9X1C8Ka_zTcCevuBdJVb_ngk0-O41PAac62330FxzQwrzUsk45PAFjQMfLY7Tnu3yl1cUQz08E-TJnYh9OQczCISPJfH6UlzyJ4lTIgqorzTZvjyvrgshx-V'
+            accesstoken=''
             cd=TransferData(accesstoken)
             soure=input("enter the file path to trasfer: ")
             dest=input("enter the upload location: ")
