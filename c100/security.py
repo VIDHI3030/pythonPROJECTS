@@ -19,7 +19,7 @@ def takeSnapShot():
     cv2.destroyAllWindows()
 
 def uploadFile(soure):
-    accesstoken='sl.A0lcuVPvjRAFpMmCQQUG9X1C8Ka_zTcCevuBdJVb_ngk0-O41PAac62330FxzQwrzUsk45PAFjQMfLY7Tnu3yl1cUQz08E-TJnYh9OQczCISPJfH6UlzyJ4lTIgqorzTZvjyvrgshx-V'
+    accesstoken=''
     source=soure
     dest="/security/"+soure
     dbx=dropbox.Dropbox(accesstoken)
